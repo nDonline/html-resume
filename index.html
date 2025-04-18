@@ -64,6 +64,27 @@
         transform: scale(1.2);
         filter: grayscale(0%) brightness(1.2);
         }
+        .mail-link {
+        font-size: 14px;
+        color: #555;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        transition: color 0.2s ease;
+        }
+        .mail-link img {
+        width: 18px;
+        margin-right: 5px;
+        transition: transform 0.2s ease, filter 0.2s ease;
+        filter: grayscale(30%) brightness(0.8);
+        }
+        .mail-link:hover {
+        color: #000;
+        }
+        .mail-link:hover img {
+        transform: scale(1.2);
+        filter: grayscale(0%) brightness(1.2);
+        }
     </style>
 </head>
 <body>
@@ -71,8 +92,10 @@
         <div class="header">
             <h1>Andrew Kim</h1>
             <address class="contact-info">
-                714.357.2491 | <a href="mailto:andrewmchangbusiness@gmail.com" class="mail-icon" title="Email Andrew">
-            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather@4.28.0/icons/mail.svg" alt="Email" /></a> | <a href="https://www.linkedin.com/in/andrew-kim-0553ab1b6/" target="_blank" rel="noopener noreferrer" class="linkedin-icon">
+                714.357.2491 | <a href="mailto:andrewmchangbusiness@gmail.com" class="mail-link" title="Email Andrew">
+    <img src="https://cdn.jsdelivr.net/gh/feathericons/feather@4.28.0/icons/mail.svg" alt="Email Icon" />
+    andrewmchangbusiness@gmail.com
+</a> | <a href="https://www.linkedin.com/in/andrew-kim-0553ab1b6/" target="_blank" rel="noopener noreferrer" class="linkedin-icon">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
 
 
